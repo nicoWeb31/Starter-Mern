@@ -1,9 +1,11 @@
-import app from './app.js'
+import app from './app.js';
+import connectDB from './config/bd.js'
 import dotenv from 'dotenv';
 dotenv.config();
 
 
-
+//____________________________MONGODB CONNECT_________________________________
+connectDB();
 
 
 
