@@ -1,6 +1,7 @@
 import app from './app.js';
 import connectDB from './config/bd.js'
 import dotenv from 'dotenv';
+import colors from 'colors';//colorConsole
 dotenv.config();
 
 

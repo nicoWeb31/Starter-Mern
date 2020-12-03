@@ -16,10 +16,10 @@ const connectDB = async () => {
         });
 
         console.log(
-            ` Connection to mongoDb is established.... 🙂 !! : ${co.connection.host}`
+            ` Connection to mongoDb is established.... 🙂 !! : ${co.connection.host}`.cyan.underline
         );
     } catch (error) {
-        console.error(`Error : ${error.message}`);
+        console.error(`Error : ${error.message}`.red.underline.bold);
         process.exit(1);
     }
 };
