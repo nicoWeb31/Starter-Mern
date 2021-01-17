@@ -21,13 +21,34 @@ $cols: 12;
     .col-#{$i} {
         flex: 0 0 100% / $cols * $i;
     }
+    .col-offset-#{$i} {
+        margin-left: 0 0 100% / $cols * $i;
+    }
 }
 
 
-// .col-12 {
-//     flex: 0 0 100%
-// }
+@media screen and (min-width: 200px) and (max-width: 640px) { 
+    $cols: 12;
 
-// .col-11 {
-//     flex: 0 0 calc(100% /12 *11 )
-// }
+    @for $i from 1 through $cols {
+        .col-xs-#{$i} {
+            flex: 0 0 100% / $cols * $i;
+        }
+        .col-offset-#{$i} {
+            margin-left: 0 0 100% / $cols * $i;
+        }
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 980px) { 
+    $cols: 12;
+
+    @for $i from 1 through $cols {
+        .col-medium-#{$i} {
+            flex: 0 0 100% / $cols * $i;
+        }
+        .col-offset-#{$i} {
+            margin-left: 0 0 100% / $cols * $i;
+        }
+    }
+}
