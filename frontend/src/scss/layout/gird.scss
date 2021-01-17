@@ -22,7 +22,7 @@ $cols: 12;
         flex: 0 0 100% / $cols * $i;
     }
     .col-offset-#{$i} {
-        margin-left: 0 0 100% / $cols * $i;
+        margin-left: 100% / $cols * $i;
     }
 }
 
@@ -35,7 +35,7 @@ $cols: 12;
             flex: 0 0 100% / $cols * $i;
         }
         .col-offset-#{$i} {
-            margin-left: 0 0 100% / $cols * $i;
+            margin-left:100% / $cols * $i;
         }
     }
 }
@@ -48,7 +48,7 @@ $cols: 12;
             flex: 0 0 100% / $cols * $i;
         }
         .col-offset-#{$i} {
-            margin-left: 0 0 100% / $cols * $i;
+            margin-left:100% / $cols * $i;
         }
     }
 }
