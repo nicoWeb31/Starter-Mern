@@ -1,12 +1,7 @@
 .container {
-    display: gird;
-    // grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
-    grid-gap: 3rem;
-
-    background-color: red;
     width: calc(100% - 5rem);
+    max-width:150rem;
     margin: 0 auto;
 }
 
